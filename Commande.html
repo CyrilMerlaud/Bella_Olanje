@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Oranje - Page 2</title>
+    <link type="text/css" rel="stylesheet" href="Commande.css"/>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+</head>
+ <body>   
+    <div class="container">
+        <img src="Images/Petit_Logo.png" alt="logo"/>
+        <header>
+            <p>Food app</p>
+            <h2>Chez Bella<br>
+                chaque désir s'additionne.</h2>       
+        </header>  <!--div header fermée--> 
+        <article>    
+            <nav>
+                <div id="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        <a href="Produits.html"><li><h3>Pizzas 🍕</h3></li></a>
+                        <a href="Produits.html"><li><h3>Burgers 🍔</h3></li></a>
+                        <a href="Produits.html"><li><h3>Salades 🥗</h3></li></a> 
+                        <br>
+                        <br>
+                        <a href="Accueil.html"><li><p>☖ Accueil ☖</p></li></a>
+                        <a href="Contact.html"><li><p>&#9993; Contact &#9993;</p></li></a>
+                    </ul>
+                </div>
+            </nav>
+            <a href="Produits.html"><h1>⮌</h1></a>         
+            <h1>➪ Vos Informations [ℹ]</h1>                                                                  <!--VOS INFORMATIONS-->                                
+            <form action="/ma-page-de-traitement" method="post">
+                <div>
+                    <label for="name">NOM :</label><br>
+                    <input type="text" id="name" name="user_name" placeholder="Nom">
+                </div>
+                        <br>
+                <div>
+                    <label for="forname">PRÉNOM :</label><br>
+                    <input type="text" id="forname" name="user_name" placeholder="Prénom">
+                </div>
+                        <br>
+                <div>
+                    <label for="phone">TÉLÉPHONE&nbsp;:</label><br>
+                    <input type="text" id="phone" name="user_mail" placeholder="Téléphone">
+                </div>
+                        <br>
+                <div>
+                    <label for="mail">EMAIL&nbsp;:</label><br>
+                    <input type="text" id="mail" name="user_mail" placeholder="Email">
+                </div>
+            </form>
+                        <br>
+                                                                                          <!--BARRE DE SEPARATION-->
+            <img src="Images/Barre_grise.png"/>                 
+            
+            <div>
+                <h1>➪ Votre commande 🍴</h1>
+                <h4>Pizza 4 fromages x 1 👉 12€</h4>
+                <h3>Suppléments (+0.50€) 🧀</h3>
+            </div>                                                                                          <!--SUPPLEMENTS-->                                 
+            <div class="center">
+                <form action="/ma-page-de-traitement" method="post">
+                    <div>
+                        <label for="supp">INGREDIENT 1 :</label>
+                        <input type="text" id="supp" name="n1_supp" placeholder="ex : Fromage"> 
+                    </div>
+                    <div>
+                       <label for="Qté-select">Qté</label>
+                        <select name="Qté" id="Qte">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                        <br>
+                    <div>
+                        <label for="supp">INGREDIENT 2&nbsp;:</label>
+                        <input type="text" id="supp" name="n2_supp" placeholder="ex : Champignons">
+                    </div>
+                        <label for="Qté-select">Qté</label>
+                        <select name="Qté" id="Qte">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <br>
+                        <br>
+                    <div>
+                        <label for="supp">INGREDIENT 3 :</label>
+                        <input type="text" id="supp" name="n3_supp" placeholder="ex : Jambon">
+                    </div>
+                        <label for="Qté-select">Qté</label>
+                        <select name="Qté" id="Qte">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <br>
+                        <br>
+                    <div>
+                        <label for="supp">INGREDIENT 4&nbsp;:</label>
+                        <input type="text" id="supp" name="n4_supp" placeholder="ex : Olives">
+                    </div> 
+                        <label for="Qté-select">Qté</label>
+                        <select name="Qté" id="Qte">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                </form>
+                        <br>
+                        <br>   
+                <div>                                                                                  <!--RADIO FRITES-->                             
+                        <input type="radio" id="frites" name="frites">
+                        <label for="name">✅ AVEC Frites 🍟</label>
+                        <br>
+                        <br>
+                        <br>
+                        <input type="radio" id="frites" name="frites">
+                        <label for="name">❌ SANS Frites 🍟</label>
+                        <br>
+                        <br>
+                    
+                                                                                                        <!--BOISSONS-->    
+                        <h1>Boisson 🥛</h1>
+                            <br>   
+                        <label for="Qté-select"></label>
+                        <select name="Qté" id="select">
+                            <option value="0">-- Choisissez votre boisson --</option>
+                            <option value="1">Coca-Cola</option>
+                            <option value="2">Coca-Cola Zéro</option>
+                            <option value="3">Coca-Cola Cherry</option>
+                            <option value="4">Sprite </option>
+                            <option value="5">Fanta Orange</option>
+                            <option value="6">Fanta Citron</option>
+                            <option value="7">Oasis Tropical</option>
+                            <option value="8">Oasis Framboise</option>
+                            <option value="9">Thé Vert</option>
+                            <option value="10">Evian</option>
+                            <option value="11">Vittel</option>
+                            <option value="12">Badoit</option>
+                            <option value="13">San Pellegrino</option>
+                        </select>
+                            <br>
+                            <br>
+                        <h1>Dessert 🍰</h1>                                                                <!--DESSERTS-->
+                            <br>
+                        <label for="Qté-select"></label>
+                        <select name="Qté" id="select">
+                            <option value="0">-- Choisissez votre dessert --</option>
+                            <option value="1">Tiramisu</option>
+                            <option value="2">Cheese-Cake</option>
+                            <option value="3">Tarte aux fraises</option>
+                            <option value="4">Tarte au citron meringué</option>
+                            <option value="5">Mousse au chocolat</option>
+                            <option value="6">Crème brûlée</option>  
+                        </select> 
+                </div>                           
+            </div>
+        </article> <!--fermeture article-->
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>           
+        <article>
+            <form>
+             <h1>➪ Adresse de livraison</h1>                                                           <!--LIVRAISON--> 
+                
+                <div>
+                    <label for="name">NOM :</label><br>
+                    <input type="text" id="name" name="user_name" placeholder="Nom">
+                </div>
+                            <br>
+
+                <div>
+                    <label for="name">PRÉNOM :</label><br>
+                    <input type="text" id="name" name="user_name" placeholder="Prénom">
+                </div>
+                            <br>
+                <div>
+                    <label for="name">TÉLÉPHONE :</label><br>
+                    <input type="text" id="mail" name="user_mail" placeholder="Téléphone">
+                </div>
+                <br>
+                <div>
+                    <label for="mail">EMAIL&nbsp;:</label><br>
+                    <input type="text" id="mail" name="user_mail" placeholder="Email">
+                </div>
+                            <br>
+                <div>
+                    <label for="mail">ADRESSE&nbsp;:</label><br>
+                    <input type="text" id="mail" name="user_mail" placeholder="Adresse">
+                </div>
+                            <br>
+                <div>
+                    <label for="mail">CODE POSTALE&nbsp;:</label><br>
+                    <input type="text" id="mail" name="user_mail" placeholder="Code Postale">
+                </div>
+                            <br>
+                <div>
+                    <label for="mail">VILLE&nbsp;:</label><br>
+                    <input type="text" id="mail" name="user_mail" placeholder="Ville">
+                </div>
+                            <br>
+                <div>
+                    <label for="mail">PAYS&nbsp;:</label><br>
+                    <input type="text" id="mail" name="user_mail" placeholder="Pays">
+                </div>
+            </form>
+                            <br>
+                            <br>
+            <div>
+                <a href="Images/Merci_bon_apétit.jpg"><img src="Images/Envoyer_contact_50.png"/></a>               <!--INSERER BOUTON "ENVOYER" ICI-->
+            </div>
+        </article>
+        <footer>
+                            <br>
+                                                                                 <!--BARRE DE SEPARATION-->
+            <img src="Images/Barre_grise.png" alt="barre"/>                 
+            
+            <h3>Problème résolu :)</h3>
+            <h4>Après tant de réflexions et de recherches, <br>j'ai pu aider les clients à se familiariser à l'application grâce <br>à mes idées pour qu'ils puissent commander aussi vite que <br>possible tout en appréciant la navigation.</h4>  
+            
+                <img src="Images/Footer_image200.png" alt="footer"/>
+            
+            <img src="Images/Petit_Logo.png" alt="logo"/>
+            <br>
+            <div class="wrapper">
+                <a href="https://www.facebook.com/" class="icon facebook">
+                  <div class="tooltip">Facebook</div>
+                  <span><i class="fab fa-facebook-f"></i></span>
+                </a>
+                <a href="https://twitter.com/?lang=fr" class="icon twitter">
+                  <div class="tooltip">Twitter</div>
+                  <span><i class="fab fa-twitter"></i></span>
+                </a>
+                <a href="https://www.instagram.com/?hl=fr" class="icon instagram">
+                  <div class="tooltip">Instagram</div>
+                  <span><i class="fab fa-instagram"></i></span>
+                </a>
+            </div>    
+            <p>@Tous droits réservés 2022 BienManger.com</p>
+        </footer> <!--div fermeture footer-->
+
+
+                           
+    </div> <!--div fermeture container-->
+ </body>
+</html>
+
+<!--<div>
+    <label for="msg">Message :</label>
+    <textarea id="msg" name="user_message"></textarea>
+</div>-->

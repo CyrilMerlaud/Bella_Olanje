@@ -1,0 +1,107 @@
+
+@media (max-width: 600px) {
+                 
+  body {
+    
+      }
+
+  .container {
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;   
+      font-size:large;
+      
+      
+  }
+
+  .header {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      height: 19%;
+      color: white;
+      background-image: url("Images/Image\ principale\ \(OK\)\ 200.png");
+      
+  }
+}
+
+
+                                                                    /* TABLETTE */
+
+
+@media (min-width: 600px) and (max-width: 1024px) {
+
+  body {
+    
+  }
+
+  .container {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;  
+    font-size:x-large;
+    
+  }
+
+  .header {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 120%;
+    height: 19%;
+    color: white;
+    background-image: url("Images/Image\ principale\ \(OK\)\ 300.png");
+  }
+}
+
+
+
+
+
+
+
+
+
+                                                              /* !!!!!!!!!!  DESKTOP  !!!!!!!!!!*/
+
+
+@media (min-width: 1024px) {
+
+  body {
+    
+  }
+
+  .container {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;  
+    font-size:x-large;
+    
+  }
+
+  .header {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 120%;
+    height: 25%;
+    color: white;
+    background-image: url("Images/Image\ principale_\(OK\)_300_Large.png");
+  }
+}                          
